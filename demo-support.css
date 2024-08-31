@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100vh;
+    padding: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    /* font-family: "Yatra One", system-ui; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.demo-header {
+    padding-top: 1rem;
+}
+
+.demo-break {
+    padding-top: 2rem;
+}
+
+.demo-float h3,
+.demo-float p:first-of-type {
+    padding-bottom: 1rem;
+}
+
+.demo-code {
+    display: block;
+    /* margin-top: 1em; */
+    white-space: nowrap;
+}
+
+.demo-buttons {
+    display: flex;
+    gap: 1rem;
+}
+
+form input {
+    margin-bottom: 1rem;
+}
+
+.misc-components {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 0 2rem;
+}
+
+.misc-components>div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+@media (min-width: 640px) {
+    body {
+        padding: 2rem;
+        gap: 1.25rem;
+    }
+
+    .demo-float h3,
+    .demo-float p:first-of-type {
+        padding-bottom: 1.25rem;
+    }
+
+
+}

@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FantaCSS is a classless CSS library!" />
+    <title>Document</title>
+    <link rel="stylesheet" href="fanta.css" />
+    <link rel="stylesheet" href="demo-support.css" />
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body class="demo-body">
+    <header class="demo-topnav">
+        <h1 class="text-gradient">FantaCSS</h1>
+        <div>
+            <a href="https://github.com/jamezmca/smolcss">GitHub</a>
+        </div>
+    </header>
+    <p>A lightweight, fantasy themed stylesheet with basic styling for HTML elements. </p>
+    <p>
+        You can use these for straightforward static websites or as a foundation to build upon with your own custom
+        classes. This isn't a full CSS framework with layout grids, components or comprehensive utility classes.
+    </p>
+    <h2>Features</h2>
+    <ul>
+        <li>No layout support</li>
+        <li>Tidy CSS elements</li>
+        <li>Lightweight & easy</li>
+        <li>Light & dark modes</li>
+    </ul>
+    <h2>Why I made this</h2>
+    <p>I created FantaCSS because I ...</p>
+    <ol>
+        <li>Design a lot of websites</li>
+        <li>Love fantasy themed stuff</li>
+        <li>Want to give everyone the theme</li>
+    </ol>
+    <h2>How to use</h2>
+    <p>
+        Grab the
+        <a href="">fanta.css</a>
+        stylesheet and add it manually to your app/site.
+    </p>
+    <p>
+        Alternatively, drop this right into your <code>&lt;head&gt;</code> to use it via a CDN.<br />
+    </p>
+    <code class="demo-code">&lt;link rel="stylesheet" href="https://unpkg.com/boltcss/bolt.min.css"&gt;</code>
+    <h2 class="demo-break">Demos</h2>
+    <hr />
+
+    <!-- Content sectioning -->
+
+    <!-- address -->
+    <h3 class="demo-header">address</h3>
+    <address>
+        <a href="mailto:hello@world.com">hello@world.com</a>
+        <br />
+        <a href="tel:0800838383">(09) 0800 83 83 83</a>
+    </address>
+
+    <!-- article -->
+    <!-- not provided -->
+
+    <!-- aside -->
+    <section class="demo-float">
+        <h3 class="demo-header">aside</h3>
+        <!-- Todo: figure out how to handle content padding dependent on float direction -->
+        <aside>
+            Penguins are flightless birds that live almost exclusively in the Southern Hemisphere.
+        </aside>
+        <p>
+            A penguin is a type of flightless bird that belongs to the family Spheniscidae.
+        </p>
+        <p>
+            Penguins are primarily found in the Southern Hemisphere, with most species living in Antarctica, but they
+            can
+            also be found along the coasts of South America, Africa, Australia, and New Zealand.
+        </p>
+    </section>
+
+    <!-- footer -->
+    <!-- not provided -->
+
+    <!-- header -->
+    <!-- not provided -->
+
+    <!-- headings h1-h6 -->
+    <h3 class="demo-header">headings</h3>
+    <section>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </section>
+
+    <!-- hgroup -->
+    <!-- not provided -->
+
+    <!-- main -->
+    <!-- not provided -->
+
+    <!-- nav -->
+    <!-- not provided -->
+
+    <!-- section -->
+    <!-- not provided yet -->
+
+    <!-- Inline text elements  -->
+    <h3 class="demo-header">inline text elements</h3>
+    <p>
+        When Zuko is struggle to quell his shame, <a href="https://wikipedia.org/HAL_9000">Uncle Iroh</a> proffers the
+        following wisdom:
+        <q cite="https://www.pastemagazine.com/tv/avatar-the-last-airbender/avatar-the-last-airbender-quotes">Pride is
+            not the opposite of shame, but its source, and humility the cure.</q>
+        <abbr title="Cascading Style Sheets">CSS</abbr> is used to style the elements in your
+        <abbr title="HyperText Markup Language">HTML</abbr>. And this stylesheet is <b class="term">Smol</b> (small but
+        cuter).
+        First sentence in
+        <cite>
+            <a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a>
+        </cite>
+        by George Orwell (Part 1, Chapter 1).
+    </p>
+
+    <p>
+        The <code>push()</code> method adds one or more elements to the end of an array and returns the new length of
+        the
+        array. We <em>had</em> to do something about it. I looked at it and thought <i>This can't be real!</i>.
+    </p>
+
+    <p>
+        Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page. These
+        <mark>penguins</mark> are well adapted to life in the water, with streamlined bodies, flipper-like wings, and
+        webbed feet, making them excellent swimmers. <s>James is not cool.</s> Instead, here is a message you need to
+        hear:
+    </p>
+    <samp>James is very very ... <br />very cool!</samp>
+
+    <p>
+        Please always continue to <strong>feed me after midnight</strong>. Almost every developer's favorite molecule is
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine." The <b>Pythagorean theorem</b>
+        is
+        often expressed as the following equation: <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> =
+        <var>c<sup>2</sup></var>.
+    </p>
+
+    <p>
+        My birthday is
+        <time datetime="1996-07-15">July 15</time> and I was born in New Zealand. I wake up at
+        <time datetime="07:00">07:00</time> and continue to be disfunctional for another
+        <time datetime="PT2H30M">2h 30m</time> hours. In such time I many numerous <u>speling</u> mistakes, which I need
+        you to <u>corect</u>. The volume of a box is <var>l</var> × <var>w</var> × <var>h</var>, where
+        <var>l</var> represents the length, <var>w</var> the width and <var>h</var> the height of the box. There is
+        <del>nothing</del> <ins>no code</ins> either good or bad, but <del>thinking</del> <ins>running it</ins> makes it
+        so.
+    </p>
+
+    <small>
+        This sample section of in-line text was mostly sourced from this wonderful
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">HTML reference</a>
+        over here.
+    </small>
+
+    <!-- blockquote -->
+    <h3 class="demo-header">blockquote</h3>
+    <blockquote cite="https://www.huxley.net/bnw/four.html">
+        <p>
+            If there's something you want to do, you can either do it or not do it. I know what I'd do.
+        </p>
+        <footer>—James McArthur, <cite>Spoken Word</cite></footer>
+    </blockquote>
+
+    <!-- description list -->
+    <h3 class="demo-header">dl (description list)</h3>
+    <dl>
+        <dt>Elyas</dt>
+        <dd>My preferred boys name.</dd>
+
+        <dt>Slimey Slippery Sausage</dt>
+        <dd>A sea serpent.</dd>
+
+        <dt>Daisy</dt>
+        <dd>My preferred girls name.</dd>
+    </dl>
+
+    <!-- figure with figcaption 
+        removing this for now- will revisit when we can do something unique with it
+      <h3- <h6 class="demo-header">figure</h3>
+      <figure>
+        <img src="https://placebear.com/620/400" alt="Elephant at sunset" />
+        <figcaption>An elephant at sunset</figcaption>
+      </figure> -->
+
+    <!-- ol -->
+    <h3 class="demo-header">ol (ordered list)</h3>
+    <ol>
+        <li>Whisk 1 cup flour and 1/4 tsp salt in a bowl.</li>
+        <li>Add 2 eggs and mix until smooth.</li>
+        <li>Gradually stir in 1/2 cup milk and 1/2 cup water.</li>
+        <li>Mix in 2 tbsp melted butter until smooth.</li>
+        <li>Let the batter rest for 30 minutes.</li>
+    </ol>
+
+    <!-- ul -->
+    <h3 class="demo-header">ul (unordered list)</h3>
+    <ul>
+        <li>Uncle Iroh</li>
+        <li>Stephen Fry</li>
+        <li>Chris Hadfield</li>
+        <li>Vander</li>
+        <li>Asmongold</li>
+    </ul>
+
+    <!-- pre -->
+    <h3 class="demo-header">pre</h3>
+    <pre role="img" aria-label="ASCII COW">
+   ______________________________
+  | You wot mate try me again i dare u. |
+   ----------------------------------------------
+    \  
+       \  /\_/\
+         ( o . o )
+          > ^ <
+      </pre>
+
+    <!-- img -->
+    <h3 class="demo-header">img</h3>
+    <img src="samurai.jpg" alt="Pixel art of samurai in snowly dojo" />
+
+    <!-- audio -->
+    <h3 class="demo-header">audio</h3>
+    <audio controls src="misty_mountains_audio.mp3">
+        Your browser does not support the
+        <code>audio</code> element.
+    </audio>
+
+    <!-- video -->
+    <h3 class="demo-header">video</h3>
+    <video controls poster="misty_mountains_thumbnail.jpg">
+        <source src="misty_mountains_mp4.mp4" type="video/mp4" />
+        Sorry, your browser doesn't support embedded videos.
+    </video>
+
+    <!-- table -->
+    <h3 class="demo-header">table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Penguin Name</th>
+                <th>Unique Trait</th>
+                <th>Fun Fact</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Emperor Penguin</td>
+                <td>Tallest penguin species</td>
+                <td>Can hold its breath for up to 20 minutes underwater.</td>
+            </tr>
+            <tr>
+                <td>Little Blue Penguin</td>
+                <td>Smallest penguin species</td>
+                <td>Also known as the "Fairy Penguin" due to its size.</td>
+            </tr>
+            <tr>
+                <td>Rockhopper Penguin</td>
+                <td>Spiky yellow feathers on head</td>
+                <td>Known for hopping across rocks with great agility.</td>
+            </tr>
+            <tr>
+                <td>Macaroni Penguin</td>
+                <td>Bright orange crest on its head</td>
+                <td>Named after a flamboyant 18th-century fashion style.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- form elements -->
+
+    <!-- buttons -->
+    <h3 class="demo-header">button</h3>
+    <div class="demo-buttons">
+        <button type="button">Save</button>
+        <button type="button" disabled>Disabled</button>
+    </div>
+
+    <!-- datalist -->
+    <h3 class="demo-header">datalist</h3>
+    <label for="ice-cream-choice">Choose a flavor</label>
+    <input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+    <datalist id="ice-cream-flavors">
+        <option value="Chocolate"></option>
+        <option value="Coconut"></option>
+        <option value="Mint"></option>
+        <option value="Strawberry"></option>
+        <option value="Vanilla"></option>
+    </datalist>
+
+    <!-- fieldset -->
+    <h3 class="demo-header">fieldset</h3>
+    <form>
+        <fieldset>
+            <legend>Choose your favorite monster</legend>
+            <label for="kraken">
+                <input type="radio" id="kraken" name="monster" />
+                Kraken
+            </label>
+            <label for="sasquatch">
+                <input type="radio" id="sasquatch" name="monster" />
+                Sasquatch
+            </label>
+            <label for="mothman">
+                <input type="radio" id="mothman" name="monster" />
+                Mothman
+            </label>
+        </fieldset>
+    </form>
+
+    <!-- form -->
+    <h3 class="demo-header">form</h3>
+    <form action="#" method="get">
+        <div class="form-example">
+            <label for="name"> Full name </label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div class="form-example">
+            <label for="email"> Email </label>
+            <input type="email" name="email" id="email" required />
+        </div>
+        <div class="form-example">
+            <label for="favnum"> Favorite Number </label>
+            <input type="number" id="favnum" name="favnum" value="" />
+        </div>
+        <div class="form-example">
+            <label for="date"> Date </label>
+            <input type="date" id="date" name="date" value="2006-01-02" />
+        </div>
+        <div class="form-example">
+            <label for="surprise">
+                <input type="checkbox" id="surprise" name="surprise" value="" />
+                Add a surprise
+            </label>
+        </div>
+        <div class="form-example">
+            <input type="submit" value="Subscribe!" />
+        </div>
+    </form>
+
+    <!-- select -->
+    <h3 class="demo-header">select</h3>
+    <label for="pet-select">Choose a pet</label>
+    <select name="pets" id="pet-select">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+    </select>
+
+    <!-- text area -->
+    <h3 class="demo-header">text area</h3>
+    <textarea id="story" name="story" placeholder="It was a dark and stormy night..." rows="7" cols="66"></textarea>
+
+    <!-- interactive elements -->
+    <!-- summary/details -->
+    <h3 class="demo-header">summary/details</h3>
+    <details>
+        <summary>Details</summary>
+        Something small enough to escape casual notice.
+    </details>
+
+    <div class="misc-components">
+        <!-- meter -->
+        <div>
+            <h3 class="demo-header">meter</h3>
+            <label for="fuel">Fuel level</label>
+            <meter id="fuel" min="0" max="100" low="33" high="66" optimum="80" value="77"></meter>
+        </div>
+
+        <!-- optgroup -->
+        <div>
+            <h3 class="demo-header">optgroup</h3>
+            <label for="dino-select">Choose a dinosaur</label>
+            <select id="dino-select">
+                <optgroup label="Theropods">
+                    <option>Tyrannosaurus</option>
+                    <option>Velociraptor</option>
+                    <option>Deinonychus</option>
+                </optgroup>
+                <optgroup label="Sauropods">
+                    <option>Diplodocus</option>
+                    <option>Saltasaurus</option>
+                    <option>Apatosaurus</option>
+                </optgroup>
+            </select>
+        </div>
+
+        <!-- progress -->
+        <div>
+            <h3 class="demo-header">progress</h3>
+            <label for="file">File progress</label>
+            <progress id="file" max="100" value="70">70%</progress>
+        </div>
+
+        <!-- output -->
+        <div>
+            <h3 class="demo-header" id="rangedemo-label">range/output</h3>
+            <form oninput="result.value=parseInt(rangedemo.value)">
+                <input type="range" id="rangedemo" name="rangedemo" value="0" aria-labelledby="rangedemo-label" />
+                <output name="result" for="b">0</output>
+            </form>
+        </div>
+
+        <!-- color -->
+        <div>
+            <h3 class="demo-header">color picker</h3>
+            <label for="color-picker">Pick a color</label>
+            <input type="color" id="color-picker" value="#843AB2" />
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="demo-footer">
+        <hr />
+        <small>
+            <a href="https://archive.org/details/SavantTrigger_Zelda_Prelude">Audio Attribution</a>
+        </small>
+    </footer>
+</body>
+
+</html>
