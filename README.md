@@ -53,4 +53,4 @@ or
 
 ## Contributing
 
-Feel free to provide feedback or report problems by [opening an issue](https://github.com/tbolt/boltcss/issues/new). I am open to new ideas and ways to improve the library.
+Feel free to provide feedback or report problems by [opening an issue](https://github.com/jamezmca/fantacss/issues/new). I am open to new ideas and ways to improve the library.
