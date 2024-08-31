@@ -13,8 +13,6 @@ You can use these for straightforward static websites or as a foundation to buil
 
 ## Why I made this
 
-I used the fantastic [HTML Elements Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) on MDN and modified it as needed.
-
 I created FantaCSS because I ...
 
 1. Design a lot of websites
