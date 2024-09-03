@@ -464,6 +464,11 @@ select {
     appearance: none;
 }
 
+input:disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
     padding: 0.5rem;
@@ -568,6 +573,18 @@ summary {
 details[open] summary {
     border-bottom: 1px solid var(--border-primary);
     margin-bottom: 0.5rem;
+}
+
+.card {
+    background-color: var(--background-muted);
+    border: 1px solid var(--border-secondary);
+    color: var(--color-primary);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.card:hover {
+    border-color: var(--border-highlight);
 }
 
 
