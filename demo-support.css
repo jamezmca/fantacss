@@ -15,6 +15,16 @@ header {
     justify-content: space-between;
 }
 
+.demo-header-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.demo-header-text img {
+    width: 40px;
+}
+
 .demo-header {
     padding-top: 1rem;
 }
