@@ -621,8 +621,8 @@ details[open] summary {
     background: var(--color-link-transparent);
 }
 
-.card-button-primary,
-.card-button-secondary {
+.card-button-primary:hover,
+.card-button-secondary:hover {
     transform: none;
     opacity: 0.6;
 }
