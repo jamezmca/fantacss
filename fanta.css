@@ -183,6 +183,12 @@ p {
     width: fit-content;
 }
 
+span {
+    font-weight: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
 /* Content Sectioning */
 
 main {}
