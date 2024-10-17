@@ -479,6 +479,21 @@ input:disabled {
     opacity: 0.6;
 }
 
+input[type="number"].buttonless {
+    appearance: textfield;
+    -moz-appearance: textfield;
+}
+
+input[type="number"].buttonless::-webkit-inner-spin-button {
+    display: none;
+    appearance: none;
+}
+
+input[type="number"].buttonless::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 input[type="checkbox"],
 input[type="radio"] {
     padding: 0.5rem;
