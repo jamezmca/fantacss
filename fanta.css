@@ -281,6 +281,19 @@ a:hover {
     text-decoration: none;
 }
 
+.link-button {
+    border: none;
+    color: var(--color-link);
+    box-shadow: none;
+    padding: 0;
+}
+
+.link-button:hover {
+    box-shadow: none;
+    transform: unset;
+    text-decoration: underline;
+}
+
 mark,
 samp,
 kbd,
