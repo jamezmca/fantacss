@@ -27,7 +27,11 @@ You can copy + paste the stylesheet into your project by grabbing [fanta.css](ht
 
 ### Via CDN
 
-Coming soon!
+Drop this right into your `<head>` to use it via a CDN:
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/jamezmca/fanta.min.css">
+```
 
 <!-- Drop this right into your `<head>` to use it via a CDN
 
